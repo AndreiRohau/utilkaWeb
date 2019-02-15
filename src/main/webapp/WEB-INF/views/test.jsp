@@ -7,7 +7,11 @@
 <title>TEST</title>
 </head>
 <body>
-<h1>my util app TEST TEST TEST</h1>
+<h1>TEST</h1>
+<hr/>
+<p style="color:red;">
+Hello Dukin ))))))        
+</p>
 <a href="${pageContext.request.contextPath}/">index</a>
 </body>
 </html>
