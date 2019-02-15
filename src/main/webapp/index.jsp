@@ -7,7 +7,7 @@
 <title>INDEX</title>
 </head>
 <body>
-<h1>my util app </h1>
-<a href="${pageContext.request.contextPath}/test">test</a>
+<h1>You have a message </h1>
+<a href="${pageContext.request.contextPath}/test">read the message</a>
 </body>
 </html>
