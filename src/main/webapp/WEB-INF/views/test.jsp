@@ -10,7 +10,7 @@
 <h1>TEST</h1>
 <hr/>
 <p style="color:red;">
-Hello Dukin ))))))        
+Hello Serega =) gl with ur prj!! ))))))        
 </p>
 <a href="${pageContext.request.contextPath}/">index</a>
 </body>
