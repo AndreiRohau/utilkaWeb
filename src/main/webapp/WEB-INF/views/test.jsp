@@ -10,7 +10,7 @@
 <h1>TEST</h1>
 <hr/>
 <p style="color:red;">
-Нормальные мы тебе стори дали, готовься рассказывать чтонибулдь!!!!!        
+пока сообщений новых нет      
 </p>
 <a href="${pageContext.request.contextPath}/">index</a>
 </body>
