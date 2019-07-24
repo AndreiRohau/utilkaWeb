@@ -10,7 +10,7 @@
 <h1>TEST</h1>
 <hr/>
 <p style="color:red;">
-Hello Serega =) gl with ur prj!! ))))))        
+Thanks for being patient, and soft with me during this hard long D1 trip!!! That was a great pleasure studying with you ))))))        
 </p>
 <a href="${pageContext.request.contextPath}/">index</a>
 </body>
