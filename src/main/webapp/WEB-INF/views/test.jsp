@@ -10,7 +10,7 @@
 <h1>TEST</h1>
 <hr/>
 <p style="color:red;">
-Thanks for being patient, and soft with me during this hard long D1 trip!!! That was a great pleasure studying with you ))))))        
+Нормальные мы тебе стори дали, готовься рассказывать чтонибулдь!!!!!        
 </p>
 <a href="${pageContext.request.contextPath}/">index</a>
 </body>
