@@ -10,7 +10,7 @@
 <h1>TEST</h1>
 <hr/>
 <p style="color:red;">
-пока сообщений новых нет      
+хочу шаву      
 </p>
 <a href="${pageContext.request.contextPath}/">index</a>
 </body>
