@@ -1,12 +1,14 @@
-package by.ras.utilkaWeb.config;
+package by.ras.utilkaWeb.web.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+
+import by.ras.utilkaWeb.dao.config.DatabaseConfig;
 
 public class Initializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
-		return new Class[] { RootConfig.class };
+		return new Class[] { DatabaseConfig.class };
 	}
 
 	@Override
