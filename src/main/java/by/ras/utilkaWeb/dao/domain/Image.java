@@ -12,7 +12,7 @@ import javax.persistence.Table;
  * @author Andrei_Rohau
  */
 @Entity
-@Table(name = "image")
+@Table(schema = "imgstoredb", name = "image")
 public class Image extends BaseEntity {
 
 	@Column
@@ -35,7 +35,7 @@ public class Image extends BaseEntity {
 	public Image(String name, String content) {
 		super();
 		this.name = name;
-		this.description = "DATABASE";
+		this.description = StorageType.DATABASE.name();
 		this.content = content;
 	}
 

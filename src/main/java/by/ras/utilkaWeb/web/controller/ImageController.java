@@ -51,11 +51,11 @@ public class ImageController {
 		return imageService.findAll(new Image());
 	}
 	
-	@ExceptionHandler(Exception.class)
-	@ResponseStatus(HttpStatus.I_AM_A_TEAPOT)
-	public @ResponseBody String handleException(Exception e) {
-		return e.getMessage();
-	}
+//	@ExceptionHandler(Exception.class)
+//	@ResponseStatus(HttpStatus.I_AM_A_TEAPOT)
+//	public @ResponseBody String handleException(Exception e) {
+//		return e.getMessage();
+//	}
 
 
 }
