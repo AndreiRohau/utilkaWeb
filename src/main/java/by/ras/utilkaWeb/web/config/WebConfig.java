@@ -7,16 +7,9 @@ import org.springframework.format.FormatterRegistry;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.ViewResolver;
-import org.springframework.web.servlet.config.annotation.ContentNegotiationConfigurer;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
-import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.config.annotation.*;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
-
-import by.ras.utilkaWeb.web.converter.MultipartFileToImageConverter;
-import by.ras.utilkaWeb.web.converter.StringToStorageTypeConverter;
 
 @Configuration
 @EnableWebMvc
@@ -46,13 +39,13 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 
 	@Override
 	public void addFormatters(FormatterRegistry registry) {
-		registry.addConverter(new MultipartFileToImageConverter());
-		registry.addConverter(new StringToStorageTypeConverter());
+//		registry.addConverter(new MultipartFileToImageConverter());
+//		registry.addConverter(new StringToStorageTypeConverter());
 	}
 
 	@Override
 	public void addViewControllers(ViewControllerRegistry registry) {
-		registry.addViewController("/").setViewName("image");
+		registry.addViewController("/").setViewName("index");
 	}
 	
 	@Override
